@@ -23,6 +23,7 @@ The public code of IMoFA is also available from http://www.cmpe.boun.edu.tr/~sal
 Unlike IMoFA, AMoFA does not resort to a validation set to tune the complexity. The propsoed algorithm uses a
 Bayesian related MML criterion similar to the one proposed by Figueiredo and Jain in their paper titled 
 "Unsupervised Learning of Finite Mixture Models" (The MATLAB code can be obtained from http://www.lx.it.pt/~mtf/).
+The corresponding mixture code is given in folder ulfmm (with a slight modification, to avoid exhaustive plotting of models).
 We generalize the MML criterion used there to reflect the local parameter cost as it should be balanced by the local support.
 Components having less support than half of their paramter cost are automatically annihilated during M-step of EM algorithm. 
 Apart from this the algorithm has a downsizing step that starts when the incremental stage is saturated. The downsizing stage annihilates
@@ -34,7 +35,7 @@ For any questions/feedback and comments the corresponding author email addresses
 heysem@boun.edu.tr
 kaya.heysem@gmail.com
 
- ----------------------------------------------------------------------
+ 
  Copyleft (2014): Heysem Kaya and Albert Ali Salah
 
  This software is distributed under the terms
@@ -48,8 +49,8 @@ kaya.heysem@gmail.com
  This software is being provided "as is", without any express or
  implied warranty.  In particular, the authors do not make any
  representation or warranty of any kind concerning the merchantability
- of this software or its fitness for any particular purpose."
- ----------------------------------------------------------------------
+ of this software or its fitness for any particular purpose.
+
 
 
 
